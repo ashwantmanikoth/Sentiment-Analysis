@@ -31,15 +31,13 @@ Training and validation accuracy and loss plots provided.
 Hyperparameter Tuning
 Multiple experiments with different learning rates, epochs, and architectures, highlighting the importance of careful hyperparameter tuning.
 
-## Proof-of-Concept Dashboard
-Implements a POC dashboard for visualizing model outputs, providing an interface for sentiment analysis of student feedback.
-
 ## Conclusion
 The project underlines the importance of learning rates, epochs, and architecture choices in sentiment analysis, with high accuracy in emotion classification.
 
 ## Running Predictions on a Test Dataset
 Processes a test dataset and saves predictions in emotions.json.
 Example predictions showcase feedback sentiment analysis capabilities.
+
 Future Work
 Expand the dataset with more diverse text sources.
 Explore deeper neural network architectures.

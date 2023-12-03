@@ -31,9 +31,6 @@ Training and validation accuracy and loss plots provided.
 Hyperparameter Tuning
 Multiple experiments with different learning rates, epochs, and architectures, highlighting the importance of careful hyperparameter tuning.
 
-## Running Predictions on Test Data
-Includes predict_sentiment function for new text data predictions. Demonstrates practical application through example feedback predictions.
-
 ## Proof-of-Concept Dashboard
 Implements a POC dashboard for visualizing model outputs, providing an interface for sentiment analysis of student feedback.
 

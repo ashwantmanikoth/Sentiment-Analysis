@@ -4,8 +4,8 @@
 This project develops a machine learning model for sentiment analysis, focusing on identifying and classifying emotions in text data. It uses a dataset combining emotions from Hugging Face and Twitter, employing TensorFlow and Keras, with extensive preprocessing and optimization.
 
 ## Prerequisites
-- Python 3.8+
-- Libraries: pandas, numpy, matplotlib, seaborn, nltk, scikit-learn, TensorFlow, Google Colab
+- Python 3.5+
+- Libraries: pandas, numpy, matplotlib, seaborn, nltk, scikit-learn, TensorFlow
 
 ## Installation
 1. Clone the repository.
@@ -38,8 +38,10 @@ The project underlines the importance of learning rates, epochs, and architectur
 Processes a test dataset and saves predictions in emotions.json.
 Example predictions showcase feedback sentiment analysis capabilities.
 
-Future Work
+## Future Work
 Expand the dataset with more diverse text sources.
 Explore deeper neural network architectures.
 Integrate with real-time data sources for dynamic analysis.
+
 Authors
+Ashwant Manikoth

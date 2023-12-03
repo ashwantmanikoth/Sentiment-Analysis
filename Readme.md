@@ -13,7 +13,7 @@ This project develops a machine learning model for sentiment analysis, focusing 
 Data Preparation
 The dataset contains 31,490 entries with 'Review' and 'Label' columns. The text is preprocessed to remove non-English characters, numbers, special symbols, and stopwords. Labels are simplified and standardized.
 
-##Model Architecture
+## Model Architecture
 Embedding Layer: Transforms words into vector representations.
 Bidirectional GRU Layers: Learns sequences in both directions.
 Dense Layer with ReLU Activation: Applies L2 regularization.
@@ -31,16 +31,16 @@ Training and validation accuracy and loss plots provided.
 Hyperparameter Tuning
 Multiple experiments with different learning rates, epochs, and architectures, highlighting the importance of careful hyperparameter tuning.
 
-##Running Predictions on Test Data
+## Running Predictions on Test Data
 Includes predict_sentiment function for new text data predictions. Demonstrates practical application through example feedback predictions.
 
-##Proof-of-Concept Dashboard
+## Proof-of-Concept Dashboard
 Implements a POC dashboard for visualizing model outputs, providing an interface for sentiment analysis of student feedback.
 
-##Conclusion
+## Conclusion
 The project underlines the importance of learning rates, epochs, and architecture choices in sentiment analysis, with high accuracy in emotion classification.
 
-##Running Predictions on a Test Dataset
+## Running Predictions on a Test Dataset
 Processes a test dataset and saves predictions in emotions.json.
 Example predictions showcase feedback sentiment analysis capabilities.
 Future Work
